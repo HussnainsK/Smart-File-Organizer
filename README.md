@@ -29,6 +29,17 @@ If you have an idea, find a bug, or want to improve the project, feel free to co
 2. Create a new branch:
    ```bash
    git checkout -b feature/your-feature
+
+## 👥 Contributors
+
+Thanks to everyone who contributes to **Smart-File-Organizer**! ❤️
+
+<a href="https://github.com/HussnainsK/Smart-File-Organizer/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=HussnainsK/Smart-File-Organizer" />
+</a>
+
+> Want to see your profile here? Fork the project, make a useful contribution, and submit a pull request! 🚀
+
    
 ## 🗂️ Categories
 
