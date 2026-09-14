@@ -15,6 +15,21 @@ A clean, safe, Windows-friendly Python GUI that automatically organizes files in
 - 📦 No third-party Python packages required
 - 🧪 Includes unit tests
 
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! 🎉
+
+If you have an idea, find a bug, or want to improve the project, feel free to contribute.
+
+### 🚀 How to contribute
+
+1. Fork this repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature
+   
 ## 🗂️ Categories
 
 | Category | Examples |
