@@ -1,5 +1,10 @@
 from pathlib import Path
 
+# ============================================================
+# FILE TYPE CUSTOMIZATION
+# ============================================================
+# Add or remove extensions here if you want to change how SFO
+# classifies files. The category name becomes the destination folder.
 CATEGORIES = {
     "Images": {
         ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".webp", ".tiff", ".tif",
@@ -27,5 +32,17 @@ CATEGORIES = {
     },
 }
 
+
 def category_for(path: Path) -> str:
-    return next((name for name, exts in CATEGORIES.items() if path.suffix.lower() in exts), "Others")
+    """Return the category that matches a file's extension.
+
+    If no extension is listed in CATEGORIES, the file goes to "Others".
+
+    CUSTOMIZE HERE:
+    - Add an extension to an existing category in CATEGORIES.
+    - Create a new category, for example: "Design": {".psd", ".ai"}.
+    """
+    return next(
+        (name for name, exts in CATEGORIES.items() if path.suffix.lower() in exts),
+        "Others",
+    )
